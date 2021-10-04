@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AudioWaveSimulationView">
+        <attr name="audioWave_numOfWave" format="integer" />
+        <attr name="audioWave_numOfBar" format="integer" />
+        <attr name="audioWave_minBarHeight" format="dimension" />
+        <attr name="audioWave_maxBarHeight" format="dimension|enum">
+            <enum name="auto" value="0" />
+        </attr>
+        <attr name="audioWave_maxBarWidth" format="dimension" />
+        <attr name="audioWave_barSpacingWidthMultiply" format="float" />
+        <attr name="audioWave_barBackgroundColor" format="color|enum">
+            <enum name="backgroundAware" value="0" />
+        </attr>
+        <attr name="audioWave_barStrokeColor" format="color" />
+        <attr name="audioWave_barStrokeWidth" format="dimension" />
+        <attr name="audioWave_barCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>
